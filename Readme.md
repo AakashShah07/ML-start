@@ -13,3 +13,7 @@ Data cleaning
 
 We use sklearn.impute to fill missing values.
 It's basically use when we're on the final stage of our application and building pipelines.
+
+
+One-Hot Encoding (OHE)
+One-hot encoding is a technique used to convert categorical data into a numerical format that machine learning models can process. It represents each category as a binary vector.

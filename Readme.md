@@ -10,4 +10,6 @@ Data cleaning
 
  ![alt text](image-3.png)
 
-How to find missing values
+
+We use sklearn.impute to fill missing values.
+It's basically use when we're on the final stage of our application and building pipelines.

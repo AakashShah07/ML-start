@@ -22,3 +22,15 @@ It's basically use when we're on the final stage of our application and building
 "Label Encoding"
         Label Encoding is a technique used to convert categorical data (text labels) into numerical values. Each unique category is assigned an integer value.
 
+
+Ordinal Encoding is best when the categorical values have a meaningful order.
+"When to Use Ordinal Encoding?"
+    ✅ Ordered Categories (Ordinal Data)
+
+        Education Levels: Primary < Secondary < Graduate < Postgraduate
+        Customer Satisfaction: Bad < Average < Good < Excellent
+        Rankings: Bronze < Silver < Gold < Platinum
+
+    🚫 Not for Unordered Categories (Nominal Data)
+
+C       olors: Red, Blue, Green (No natural order) → Use One-Hot Encoding instead.

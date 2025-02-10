@@ -33,4 +33,8 @@ Ordinal Encoding is best when the categorical values have a meaningful order.
 
     🚫 Not for Unordered Categories (Nominal Data)
 
-C       olors: Red, Blue, Green (No natural order) → Use One-Hot Encoding instead.
+    Colors: Red, Blue, Green (No natural order) → Use One-Hot Encoding instead.
+    
+
+"Outliers in ML"
+        An outlier is a data point that significantly differs from the rest of the dataset. It is an unusual value that deviates from the expected pattern of data. Outliers can arise due to measurement errors, data corruption, or rare events.

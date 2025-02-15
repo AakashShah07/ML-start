@@ -44,3 +44,45 @@ Ordinal Encoding is best when the categorical values have a meaningful order.
 Using the Z-score (Standard Deviation Method)
     Z-score measures how many standard deviations a data point is from the mean. Data points with a Z-score beyond a threshold (commonly ±3) are considered outliers.
 ![alt text](image-4.png)
+
+
+
+
+
+Backward and forward elimination are two feature selection techniques used in machine learning and statistical modeling to optimize models by selecting the most relevant features. These methods are commonly used in regression models to improve performance and reduce overfitting.
+
+1. Forward Elimination
+Definition:
+Forward elimination is a stepwise regression technique where we start with an empty model (no features) and progressively add features that significantly improve the model's performance.
+
+Steps:
+
+Start with no predictors (only the intercept).
+Compute the model's performance (e.g., p-value, adjusted R², AIC, BIC).
+Add the feature that has the most significant contribution (lowest p-value or highest R² improvement).
+Repeat step 3 until adding a new feature does not improve the model significantly.
+Pros:
+✅ Simple and computationally efficient.
+✅ Ensures only significant features are included.
+
+Cons:
+❌ Might miss important feature interactions.
+❌ Results can be biased if the best features depend on earlier selections.
+
+2. Backward Elimination
+Definition:
+Backward elimination starts with all features and systematically removes the least significant ones until the model reaches optimal performance.
+
+Steps:
+
+Start with all available features.
+Fit the model and compute significance (p-value for regression, feature importance for ML models).
+Remove the feature with the highest p-value (least significant).
+Recompute the model and repeat step 3 until all remaining features are significant.
+Pros:
+✅ Considers all features initially, avoiding missing important ones.
+✅ More reliable when feature interactions matter.
+
+Cons:
+❌ Computationally expensive, especially with large datasets.
+❌ May remove some features that are useful when combined with others.

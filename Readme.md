@@ -86,3 +86,11 @@ Pros:
 Cons:
 ❌ Computationally expensive, especially with large datasets.
 ❌ May remove some features that are useful when combined with others.
+
+
+
+In machine learning, we divide a dataset into two parts:
+
+Training Set – Used to train the model (typically 70-80% of the data).
+Test Set – Used to evaluate the model’s performance (typically 20-30% of the data).
+This ensures that the model learns patterns from the training set and generalizes well to unseen data in the test set.

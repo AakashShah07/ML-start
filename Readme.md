@@ -94,3 +94,17 @@ In machine learning, we divide a dataset into two parts:
 Training Set – Used to train the model (typically 70-80% of the data).
 Test Set – Used to evaluate the model’s performance (typically 20-30% of the data).
 This ensures that the model learns patterns from the training set and generalizes well to unseen data in the test set.
+
+
+
+📌 Regression Analysis in Machine Learning
+Regression analysis is a statistical method used in machine learning to find the relationship between independent variables (features) and a dependent variable (target/output). The goal is to predict continuous values, such as house prices, stock prices, or sales revenue.
+
+![alt text](image-5.png)
+
+
+
+
+📌 Simple Linear Regression in Python
+Simple Linear Regression is used to predict a continuous dependent variable (y) based on one independent variable (X). It fits a straight line (y = mx + c) to the data.
+

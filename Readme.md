@@ -112,3 +112,12 @@ Simple Linear Regression is used to predict a continuous dependent variable (y) 
 
 Multiple Linear Regression in Machine Learning
 Multiple Linear Regression (MLR) is an extension of Simple Linear Regression where multiple independent variables (predictors) are used to predict a dependent variable. It is a fundamental supervised learning algorithm in machine learning and statistics.
+
+
+
+
+Polynomial Regression Explained
+Polynomial Regression is a type of regression analysis used when the relationship between the independent variable (X) and dependent variable (Y) is non-linear (curved). It is an extension of Linear Regression, where we add polynomial terms to capture the curvature in the data.
+
+Here we also define degree means how much we want to curve the dataset
+![alt text](image-6.png)

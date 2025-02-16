@@ -108,3 +108,7 @@ Regression analysis is a statistical method used in machine learning to find the
 📌 Simple Linear Regression in Python
 Simple Linear Regression is used to predict a continuous dependent variable (y) based on one independent variable (X). It fits a straight line (y = mx + c) to the data.
 
+
+
+Multiple Linear Regression in Machine Learning
+Multiple Linear Regression (MLR) is an extension of Simple Linear Regression where multiple independent variables (predictors) are used to predict a dependent variable. It is a fundamental supervised learning algorithm in machine learning and statistics.

@@ -121,3 +121,36 @@ Polynomial Regression is a type of regression analysis used when the relationshi
 
 Here we also define degree means how much we want to curve the dataset
 ![alt text](image-6.png)
+
+
+
+
+A cost function is a mathematical function that measures the error or difference between the predicted output of a model and the actual output. It is widely used in machine learning, deep learning, and optimization problems to guide the training process by minimizing errors.
+
+![alt text](image-7.png)
+
+
+Cost Function for Regression Problems
+In regression, the cost function measures how far the model’s predictions are from the actual values. The two most commonly used cost functions are:
+
+1. Mean Squared Error (MSE)
+2. Mean Absolute Error (MAE)
+
+
+![alt text](image-8.png)
+
+
+![alt text](image-9.png)
+
+
+![alt text](image-10.png)
+
+
+
+Regularization Techniques in Machine Learning
+Regularization is a technique used to reduce overfitting by adding a penalty term to the cost function. It helps prevent the model from learning noise in the data and ensures better generalization on unseen data.
+
+![alt text](image-11.png)
+
+
+![alt text](image-12.png)

@@ -154,3 +154,6 @@ Regularization is a technique used to reduce overfitting by adding a penalty ter
 
 
 ![alt text](image-12.png)
+
+
+![alt text](image-13.png)

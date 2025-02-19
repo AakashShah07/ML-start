@@ -179,3 +179,13 @@ A linear regression model with L1 regularization, which adds a penalty for large
 📌 What it is:
 
 A linear regression model with L2 regularization, which shrinks the coefficients but does not make them zero.
+
+
+
+![alt text](image-14.png)
+
+
+![alt text](image-15.png)
+
+
+![alt text](image-16.png)

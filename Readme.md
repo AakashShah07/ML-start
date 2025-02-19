@@ -157,3 +157,25 @@ Regularization is a technique used to reduce overfitting by adding a penalty ter
 
 
 ![alt text](image-13.png)
+
+
+
+1️⃣ LinearRegression (Ordinary Least Squares - OLS)
+📌 What it is:
+
+The standard linear regression model that minimizes the sum of squared errors (Residual Sum of Squares).
+It finds the best-fitting line by optimizing coefficients to reduce the error.
+
+
+
+2️⃣ Lasso Regression (L1 Regularization)
+📌 What it is:
+
+A linear regression model with L1 regularization, which adds a penalty for large coefficients and forces some coefficients to be zero (performs feature selection).
+
+
+
+3️⃣ Ridge Regression (L2 Regularization)
+📌 What it is:
+
+A linear regression model with L2 regularization, which shrinks the coefficients but does not make them zero.
